@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 29, 2015, 7:24:09 PM
+    Author     : Als Computer
+*/
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+body {
+    width: 750px;
+    margin:0px auto;
+}
+.bilbo {
+    font-family: 'Bilbo',sans-serif; 
+}
+header {
+    background-image: url('images/logo.png');
+    background-color: lightyellow;
+    background-repeat: no-repeat;
+    border-bottom: maroon solid 1.5px;
+}
+h1.title {
+    font-size: 225%;
+    margin-bottom: 2px;
+    padding-left: 200px;
+}
+h2.slogan {
+    font-size: 240%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: 200px;
+}
+h2.details {
+    padding-left: 200px;
+    margin-top: 2px;
+    font-weight: 500;
+    font-size: 100%;
+}
+section h3 {
+    background-color: lightyellow;
+    border-bottom: maroon solid 1.5px;
+    margin-bottom: 12px;
+}
+.register a {
+    color: maroon;
+    background-color: lightyellow;
+    font-weight: bold;
+}
+.bottom-pane {
+    border: rgb(123, 70, 70) solid 3px;
+    float: left;
+    padding: 4px;
+    margin: 4px;
+    width: 32%;
+    height: 145px;
+    font-size: 100%;
+    text-align: center;
+    /* font-family: 'bilbo'; */
+    /* color: black; */
+    /* font-weight: 900; */
+}
+.fb-image {
+     width: 95%;
+}
