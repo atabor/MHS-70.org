@@ -13,32 +13,55 @@ and open the template in the editor.
     -webkit-box-sizing: border-box;
     font-family: 'Open Sans Condensed', sans-serif;
 }
-body {
-    width: 750px;
-    margin:0px auto;
-}
 .bilbo {
     font-family: 'Bilbo',sans-serif; 
 }
 header {
-    background-image: url('images/logo.png');
+//    background-image: url('images/logo.png');
     background-color: lightyellow;
     background-repeat: no-repeat;
     border-bottom: maroon solid 1.5px;
 }
+
+@media only screen and (min-width: 750px) {
+    body {
+        width: 750px;
+        margin:0px auto;
+    }
+    header {
+        background-image: url('images/logo.png');
+    }
+    h1.title, h2.slogan, h2.details {
+        padding-left: 200px;
+    }
+    .bottom-pane {
+        float: left;
+        width: 32%;
+        height: 145px;
+    }
+    .fb-image {
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 749px) {
+    .fb-image {
+        width: 100px;
+    }    
+}
+
 h1.title {
     font-size: 225%;
     margin-bottom: 2px;
-    padding-left: 200px;
+//    padding-left: 200px;
 }
 h2.slogan {
     font-size: 240%;
     margin-top: 2px;
     margin-bottom: 2px;
-    padding-left: 200px;
+//    padding-left: 200px;
 }
 h2.details {
-    padding-left: 200px;
+//    padding-left: 200px;
     margin-top: 2px;
     font-weight: 500;
     font-size: 100%;
@@ -55,17 +78,14 @@ section h3 {
 }
 .bottom-pane {
     border: rgb(123, 70, 70) solid 3px;
-    float: left;
+//    float: left;
     padding: 4px;
     margin: 4px;
-    width: 32%;
-    height: 145px;
+//    width: 32%;
+    /* height: 145px; */
     font-size: 100%;
     text-align: center;
     /* font-family: 'bilbo'; */
     /* color: black; */
     /* font-weight: 900; */
-}
-.fb-image {
-     width: 95%;
 }
